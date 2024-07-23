@@ -25,6 +25,10 @@ class Person{
         return this.currentRating;
     }
 
+    public getMaxRating():number{
+        return this.maxRating;
+    }
+
     public getName():string{
         return this.name;
     }
